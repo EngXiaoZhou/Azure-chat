@@ -1,11 +1,13 @@
 # azure_chat
 一个调用Azure Ai Foundry api，实现调取azure中创建的模型来进行聊天的项目
+
 ## 依赖
 **python >= 3.8**
 
 **azure.identity**
 
 **azure-ai-inference**
+
 ## 环境搭建
 ### 1.请先前往[python官网](https://www.python.org/downloads/)下载所需的python版本，建议使用二进制安装并勾选自动配置环境变量
 
@@ -14,6 +16,11 @@
 `pip install azure.identity`
 
 `pip install azure-ai-inference`
+
+#### 注:如您有网络访问问题，请自行更换pip源后再安装
+
+`pip config set global.index-url 需要更换的pip源URL`
+
 ## 用法
 
 ## todo
