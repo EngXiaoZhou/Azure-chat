@@ -7,8 +7,8 @@
 
 **azure-ai-inference**
 ## 环境搭建
-
-
+1.请先前往[python官网](https://www.python.org/downloads/)下载所需的python版本，建议使用二进制版本并勾选配置环境变量
+2.
 ## 用法
 
 ## todo
