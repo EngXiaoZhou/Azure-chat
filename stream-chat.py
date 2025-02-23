@@ -1,4 +1,4 @@
-# 需要额外安装依赖azure.identity和azure-ai-inference
+# 流模式，模型实时回复
 import os
 import re
 
