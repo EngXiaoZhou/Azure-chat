@@ -37,7 +37,7 @@
 ### 3.在ide或tty/cmd中运行对应py文件
 `python xyz.py`
 
-## todo
+## TODO
 - [ ] **加入arguments与options，实现模型参数（温度，上下文窗口等）可调**
 - [ ] **可使用参数或外部文件指定云端对应信息，不再需要修改源码方式填入**
 - [ ] **将stream-chat.py与chat.py整合，使用arguments指定模式**
