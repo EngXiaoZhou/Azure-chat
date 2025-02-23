@@ -8,7 +8,7 @@ from azure.core.credentials import AzureKeyCredential
 
 endpoint = os.getenv("AZURE_INFERENCE_SDK_ENDPOINT",
                      "你的API链接")
-model_name = os.getenv("DEPLOYMENT_NAME", "DeepSeek-R1")
+model_name = os.getenv("DEPLOYMENT_NAME", "你的部署模型名称")
 key = os.getenv("AZURE_INFERENCE_SDK_KEY",
                 "你的API token（令牌）")
 client = ChatCompletionsClient(endpoint=endpoint, credential=AzureKeyCredential(key))
