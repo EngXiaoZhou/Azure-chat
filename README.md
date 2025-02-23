@@ -9,7 +9,7 @@
 ## 环境搭建
 ### 1.请先前往[python官网](https://www.python.org/downloads/)下载所需的python版本，建议使用二进制安装并勾选自动配置环境变量
 
-### 2.使用pip安装(ide或者cmd中)所需的azure依赖包，命令如下
+### 2.使用pip安装(ide或者cmd中)所需的azure依赖包，命令如下:
 
 `pip install azure.identity`
 
