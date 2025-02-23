@@ -1,12 +1,14 @@
 # azure_chat
 一个调用Azure Ai Foundry api，实现调取azure中创建的模型来进行聊天的项目
 
+
 ## 依赖
 **python >= 3.8**
 
 **azure.identity**
 
 **azure-ai-inference**
+
 
 ## 环境搭建
 ### 1.请先前往[python官网](https://www.python.org/downloads/)下载所需的python版本，建议使用二进制安装并勾选自动配置环境变量
@@ -25,6 +27,7 @@
 推荐使用[pycharm](https://www.jetbrains.com/pycharm/download)或[vscode](https://code.visualstudio.com/)
 没有IDE在cmd/tty中运行也可，但是体验会较差。
 
+
 ## 用法
 ### 1.git clone或打包下载本项目并进入项目目录
 项目中含有**chat.py**与**stream-chat.py**
@@ -36,6 +39,7 @@
 
 ### 3.在ide或tty/cmd中运行对应py文件
 `python xyz.py`
+
 
 ## TODO
 - [ ] **加入arguments与options，实现模型参数（温度，上下文窗口等）可调**
