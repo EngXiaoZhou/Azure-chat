@@ -19,7 +19,7 @@
 
 #### 注：如您有网络访问问题，请自行更换pip源后再安装
 
-`pip config set global.index-url **需要更换的pip源URL**`
+`pip config set global.index-url URL`
 
 ### 3.下载安装所需ide（可选）
 推荐使用[pycharm](https://www.jetbrains.com/pycharm/download)或[vscode](https://code.visualstudio.com/)
