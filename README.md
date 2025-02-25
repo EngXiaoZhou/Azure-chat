@@ -30,7 +30,6 @@
 
 ## 用法
 ### 1.git clone或打包下载本项目并进入项目目录
-项目中含有**chat.py**与**stream-chat.py**
 
 ### 2.编辑config.json文件，填入相应的信息
 其中，`account`部分为指向自己Azure云端的对应信息，`model`则为指定模型的参数。
