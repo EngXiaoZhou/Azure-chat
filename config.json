@@ -1,0 +1,19 @@
+{
+  "account": {
+    "endpoint": "",
+    "token": "",
+    "modelName": ""
+  },
+  "model": {
+    "streamMode": true,
+    "systemMessage": "",
+    "maxHistoryMessages": 10,
+    "maxTokens": 4000,
+    "temperature": 0.7,
+    "topP":0.95,
+    "stop": [],
+    "frequencyPenalty": 0,
+    "presencePenalty": 0,
+    "timeout": 60
+  }
+}
