@@ -34,14 +34,17 @@
 #### chat.py为直出模式，输入会等到云端模型全部输出完毕再返回响应
 #### stream-chat.py为流模式，模型实时回复，即类似目前各家的主流模型响应
 
-### 2.根据你所需要使用的模式编辑对应的py源文件，填入自己云端对应的信息
-包括**ENDPOINT**，**DEPLOYMENT_NAME**与**SDK_KEY**
+### 2.编辑config.json文件，填入相应的信息
+其中，`account`部分为指向自己Azure云端的对应信息，`model`则为指定模型的参数。
+
+详情可参考[Azure官方文档](https://learn.microsoft.com/zh-cn/azure/ai-services/openai/reference)
 
 ### 3.在ide或tty/cmd中运行对应py文件
 `python xyz.py`
 
 
 ## TODO
-- [ ] **加入arguments与options，实现模型参数（温度，上下文窗口等）可调**
-- [ ] **可使用参数或外部文件指定云端对应信息，不再需要修改源码方式填入**
-- [ ] **将stream-chat.py与chat.py整合，使用arguments指定模式**
+- [x] ~~**加入arguments与options，实现模型参数（温度，上下文窗口等）可调**~~
+- [x] ~~**可使用参数或外部文件指定云端对应信息，不再需要修改源码方式填入**~~
+- [x] ~~**将stream-chat.py与chat.py整合，使用arguments指定模式**~~
+**均已使用json配置文件实现**
